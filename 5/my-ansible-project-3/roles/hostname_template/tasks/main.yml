@@ -1,0 +1,6 @@
+---
+- name: Deploy template with hostname info
+  template:
+    src: test2.j2
+    dest: /tmp/test2
+    mode: '0644'

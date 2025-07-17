@@ -1,0 +1,6 @@
+---
+- name: Create file with Hello world! content
+  copy:
+    content: "Hello world!"
+    dest: /tmp/test1
+    mode: '0644'

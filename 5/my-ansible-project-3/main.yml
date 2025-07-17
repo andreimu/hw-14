@@ -1,0 +1,7 @@
+---
+- name: Apply hostname_template role
+  hosts: all
+  become: yes
+  gather_facts: yes
+  roles:
+    - hostname_template
